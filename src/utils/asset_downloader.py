@@ -51,6 +51,9 @@ def extract_assets(jar_path, output_dir):
 
             if any(x in file for x in [
                 "blockstates/",
+                "equipment/",
+                "font/",
+                "items/",
                 "models/",
                 "textures/"
             ]):
